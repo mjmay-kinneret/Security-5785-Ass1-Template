@@ -37,7 +37,7 @@ public class ByteManipulation {
      * @param s A hexadecimal string to convert to byte array
      * @return The byte array representation of the string
      * @throws IllegalArgumentException If the array (after trimming) doesn't have an even number of characters
-     * @implNote https://stackoverflow.com/a/140861
+     * @implNote <a href="https://stackoverflow.com/a/140861">...</a>
      */
     public static byte[] hexToBytes (String s)
     {
@@ -62,7 +62,7 @@ public class ByteManipulation {
     public static String bytesToString(byte[] array) {
         StringBuilder sb = new StringBuilder();
         IntStream.range(0, array.length).forEach(i -> {
-            sb.append(array[i] + " ");
+            sb.append(array[i]).append(" ");
         });
         return sb.toString().trim();
     }

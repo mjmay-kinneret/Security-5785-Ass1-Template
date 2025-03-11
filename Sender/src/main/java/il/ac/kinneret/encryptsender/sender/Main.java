@@ -3,7 +3,7 @@ package il.ac.kinneret.encryptsender.sender;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.printf("Hello world!");
+        System.out.print("Hello world!");
     }
 
     private static void showUsage() {
